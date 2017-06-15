@@ -42,7 +42,7 @@ table {
 }
 
 .container_12 .grid_1 {
-    width: 4.33%;
+    width: 4.333%;
 }
 .container_12 .grid_2 {
     width: 12.66%;
@@ -72,11 +72,12 @@ table {
     width: 79.30%;
 }
 .container_12 .grid_11 {
-    width: 87.66%;
+    width: 87.63%;
 }
 .container_12 .grid_12 {
     width: 96%;
 }
+
 /*Fin rejilla*/
 
 html {
@@ -172,7 +173,7 @@ h1.titulo-seccion {
 .info-transporte {
     color: #080e3d;
     font-size: 1.4em;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 0.5em;
     text-align: center;
 }
@@ -382,7 +383,7 @@ footer {
     display:none;
 }
 
-/*Media Queries*/
+*Media Queries*/
 
 @media screen and (max-width:960px) {
     @-ms-viewport {
@@ -397,10 +398,10 @@ footer {
         border-bottom: 1px solid #ccc;
         width: 98%;
     }
-    #info .mas-info-link::before {
+    #info-frutas .mas-info-link::before {
         display:none;
     }
-  #info .mas-info-link {
+  #info-frutas .mas-info-link {
         background: none repeat scroll 0 0 #98002f;
         color: #fff;
         display: block;
@@ -418,7 +419,7 @@ footer {
     header .grid_10.xs-grid_12 {
         clear: both;
         display: block;
-        float: none;
+        float: right;
         margin: 0 0 2%;
         width: 100%;
     }
@@ -446,17 +447,17 @@ footer {
         display: block;
         width: 100%;
         float: none;
-        border-top: 1px solid #ccc;
+        border-top: 2px solid #ccc;
     }
     header .grid_10.xs-grid_12 li:last-child {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 2px solid #ccc;
     }
     header .grid_10.xs-grid_12 li a {
-        padding: 0.5em 0;
+        padding: 0.1em 0;
         text-align: center;
     }
     header .grid_10.xs-grid_12 li a:hover {
-        background-color:#9bce7f;
+        background-color:#a7e884;
         color:#000;
         text-decoration:none;
     }
@@ -470,13 +471,13 @@ footer {
         max-width: 270px;
         width: 100%;
     }
-    .email-claim {
+    .email-info {
         font-size:1.1em;
         margin-bottom:9%;
     }
     /*menú responsive CSS3 (No necesita JS)*/
     .toggle {
-        background-color: #98002f;
+        background-color: #05172d;
         color: #fff;
         display: block;
         float: right;
@@ -497,28 +498,28 @@ footer {
     }
     .toggle .close
     {
-        display: none;
+	    display: none;
     }
     #nav ul
     {
-        height: 0em;
-        overflow: hidden;
-            -ms-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition:all .3s ease-in-out;
-        transition:all .3s ease-in-out;
+	    height: 0em;
+	    overflow: hidden;
+      -ms-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+	    -webkit-transition: all .3s ease-in-out;
+      -o-transition:all .3s ease-in-out;
+      transition:all .3s ease-in-out;
     }
     #nav:target ul
     {
-        height: 10em;
+	    height: 10em;
     }
     #nav:target .open
     {
-        display: none;
+	    display: none;
     }
     #nav:target .close
     {
-        display: block;
+	    display: block;
     }
 }
